@@ -77,7 +77,7 @@ const CourseInfo = {
   ];
   console.log(LearnerSubmissions);
 //////////////////////////
-let 
+
 
 //   function getLearnerData(course, ag, submissions) {
 //     // here, we would process this data to achieve the desired result.
@@ -126,7 +126,7 @@ let
 //   console.log(submission_score);
 
 // HHHHH
-let result = LearnerSubmissions.map(key => {
+let result1 = LearnerSubmissions.map(key => {
 
 
   return { "learner_id": key.learner_id,
@@ -135,7 +135,8 @@ let result = LearnerSubmissions.map(key => {
   }
   })
 
-  console.log(result)
+  console.log(result);
+
   // let newresult = result.split
   // console.log(newresult);
 
