@@ -140,9 +140,9 @@ let result1 = LearnerSubmissions.map(key => {
   // let newresult = result.split
   // console.log(newresult);
 
-  id :  learner_ID
-avg: (first_assignment + second_assignment ) / (first_assignment_possible_score + second_assignment_possible_score),
-first_assignment_id : ( first_assignment / first_assignment_possible_score) take away 10% if late,
-second_assignment_id : ( second_assignment / second_assignment_possible_score )take away 10% if late
+//   id :  learner_ID
+// avg: (first_assignment + second_assignment ) / (first_assignment_possible_score + second_assignment_possible_score),
+// first_assignment_id : ( first_assignment / first_assignment_possible_score) take away 10% if late,
+// second_assignment_id : ( second_assignment / second_assignment_possible_score )take away 10% if late
 
-//new comment
+// //new comment
